@@ -1,0 +1,258 @@
+body {
+    margin: 0;
+    /* box-sizing: border-box; */
+}
+
+.hero-section {
+    /* min-height: 100vh; */
+    /* background-color: #F99401; */
+    background-image: url(./images/happy-holi.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.jhalar {
+    max-width: 250px;
+    margin-bottom: -300px;
+    background-color: transparent;
+    /* filter: brightness(1.1) contrast(1.2); */
+    mix-blend-mode: multiply;
+}
+
+.para-audio {
+    margin-left: 15rem;
+}
+
+.hero-section p {
+    font-size: 46px;
+    font-weight: 400;
+    font-family: salsa, sans-serif;
+    max-width: 550px;
+
+}
+
+audio::-webkit-media-controls-panel {
+    background-color: #FBD8A4;
+}
+
+.audio-container {
+    background-color: #FBD8A4;
+    max-width: max-content;
+    border-radius: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding-left: 16px;
+    font-family: salsa;
+
+
+}
+
+.deep {
+    max-width: 240px;
+    background-color: transparent;
+    mix-blend-mode: multiply;
+    filter: brightness(1.1) contrast(1.2);
+}
+
+
+
+.lakshmi-ganesh-ji-section {
+    background: linear-gradient(to right,#7E57C2, red, blue,#15273D, yellow, maroon);
+    background-size: 200%;
+    animation: animationGradient 2s linear infinite;
+    padding-top: 1rem;
+    padding-inline: 1rem;
+
+}
+
+
+@keyframes animationGradient {
+    to {
+        background-position: 200%;
+    }
+}
+
+
+.lakshmi-ganesh-ji-img {
+    max-width: 1200px;
+    width: 100%;
+    display: block;
+    margin-inline: auto;
+}
+
+.circle {
+    width: 10px;
+    height: 10px;
+    background-color: #FBD8A4;
+    border-radius: 50%;
+
+}
+
+.horizontal-devider {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    max-width: 1010px;
+    width: 100%;
+    margin-inline: auto;
+    margin-bottom: 1rem;
+
+}
+
+.horizontal-line {
+    height: 2px;
+    width: 468px;
+    background-color: #FBD8A4
+}
+
+.lakshmi-ganesh-ji-section h2 {
+    text-align: center;
+    font-family: salsa;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.white-card {
+    background-color: white;
+    max-width: 500px;
+    padding: 4rem;
+    border-radius: 24px;
+    margin-top: 4rem;
+}
+
+.white-card p {
+    font-size: 32px;
+    font-family: salsa, sans-serif;
+}
+
+.white-card-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.little-girl {
+    width: 250px;
+    margin-left: -5rem;
+    background-color: transparent;
+    mix-blend-mode: multiply;
+    filter: brightness(1.1) contrast(1.2);
+}
+
+.lak-gana-section {
+   background: linear-gradient(to right,#7E57C2, red, blue,#15273D, yellow, maroon);
+    background-size: 200%;
+    animation: animationGradient 2s linear infinite;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-inline: 1rem;
+}
+
+@keyframes animationGradient {
+    to {
+        background-position: 200%;
+    }
+}
+.lak-gana-img {
+     max-width: 1200px;
+    width: 100%;
+    display: block;
+    margin-inline: auto;
+}
+
+.lak-gana-section p {
+     font-family: salsa, sans-serif;
+}
+
+.lak-gana-section h1 {
+    font-family: salsa, sans-serif;
+    font-weight: 400;
+}
+
+.thanks-text {
+    margin-left: 1rem;
+}
+
+
+
+@media (max-width: 800px) {
+    .sec-deep {
+        display: none;
+    }
+
+    .first-deep {
+        display: block;
+        margin-left: 200px;
+    }
+
+    .hero-section p {
+        font-size: 24px;
+        max-width: 250px;
+
+    }
+
+    .para-audio {
+        margin-left: 1rem;
+    }
+
+    .jhalar {
+        margin-bottom: 0;
+    }
+
+    .audio-container .music-img,
+    .audio-container span {
+        display: none;
+
+    }
+
+    .audio-container {
+        max-width: max-content;
+    }
+
+    .white-card {
+        padding-block: 1rem;
+        padding-left: 2rem;
+    }
+
+    .white-card p {
+        font-size: 1.5rem;
+    }
+
+    .little-girl {
+        max-width: 150px;
+
+    }
+
+
+}
+
+@media (max-width: 500px) {
+    .first-deep {
+        width: 100%;
+        max-width: 250px;
+        margin-left: 0;
+    }
+
+    .lakshmi-ganesh-ji-section h2 {
+        font-size: 24px;
+        font-weight: 400;
+    }
+
+    .white-card p {
+        font-size: 1rem;
+    }
+
+    .little-girl {
+        max-width: 100px;
+
+    }
+
+    .lak-gana-section h1 {
+        font-size: 1rem;
+    }
+
+
+
+}
